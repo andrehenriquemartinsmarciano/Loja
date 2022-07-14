@@ -9,6 +9,6 @@ package DaoLoja;
  *
  * @author andre
  */
-public class ClsDaoCadastro {
+public class ClsDaoTelaUsuario {
     
 }

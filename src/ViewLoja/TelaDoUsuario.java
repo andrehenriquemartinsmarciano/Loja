@@ -109,13 +109,13 @@ public class TelaDoUsuario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        TelaBaixa al = new TelaBaixa();
+        TelaRemoverProduto al = new TelaRemoverProduto();
         al.setVisible(true);
         al.setLocationRelativeTo(null);
         al.setSize(887, 615);
         al.setResizable(false);
         al.setTitle("Baixa Estoque");
-        al.setDefaultCloseOperation(TelaBaixa.DO_NOTHING_ON_CLOSE);
+        al.setDefaultCloseOperation(TelaRemoverProduto.DO_NOTHING_ON_CLOSE);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
