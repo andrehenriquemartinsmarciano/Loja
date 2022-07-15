@@ -112,7 +112,7 @@ public class TelaDoUsuario extends javax.swing.JFrame {
         TelaRemoverProduto al = new TelaRemoverProduto();
         al.setVisible(true);
         al.setLocationRelativeTo(null);
-        al.setSize(887, 615);
+        al.setSize(559, 493);
         al.setResizable(false);
         al.setTitle("Baixa Estoque");
         al.setDefaultCloseOperation(TelaRemoverProduto.DO_NOTHING_ON_CLOSE);
@@ -122,7 +122,7 @@ public class TelaDoUsuario extends javax.swing.JFrame {
         TelaProduto al = new TelaProduto();
         al.setVisible(true);
         al.setLocationRelativeTo(null);
-        al.setSize(887, 615);
+        al.setSize(724, 524);
         al.setResizable(false);
         al.setTitle("CADASTRO ESTOQUE");
         al.setDefaultCloseOperation(TelaProduto.DO_NOTHING_ON_CLOSE);
@@ -132,7 +132,7 @@ public class TelaDoUsuario extends javax.swing.JFrame {
         TelaCadastraEstoque al = new TelaCadastraEstoque();
         al.setVisible(true);
         al.setLocationRelativeTo(null);
-        al.setSize(887, 615);
+        al.setSize(559, 493);
         al.setResizable(false);
         al.setTitle("MOSTRA ESTOQUE");
         al.setDefaultCloseOperation(TelaCadastraEstoque.DO_NOTHING_ON_CLOSE);

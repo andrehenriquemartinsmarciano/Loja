@@ -17,7 +17,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     public TelaPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
-        dispose(); 
+        dispose();
     }
 
     /**
@@ -129,7 +129,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        TelaCadastraEstoque al = new TelaCadastraEstoque();
+        al.setVisible(true);
+        al.setLocationRelativeTo(null);
+        al.setSize(559, 493);
+        al.setResizable(false);
+        al.setTitle("MOSTRA ESTOQUE");
+        al.setDefaultCloseOperation(TelaCadastraEstoque.DO_NOTHING_ON_CLOSE);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
