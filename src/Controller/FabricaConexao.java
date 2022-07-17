@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class FabricaConexao {
 private Connection conexao;
-private String URL = "jdbc:mysql://localhost:3306/sistema?userSSL=false";
+private String URL = "jdbc:mysql://localhost:3306/academiaPOO2?userSSL=false";
 private String USUARIO = "root";
 private String PASSWORD = "root" ;
 
